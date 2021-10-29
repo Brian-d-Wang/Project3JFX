@@ -124,4 +124,8 @@ public class Student {
 
     }
 
+    public String toString(){
+        return(this.profile.toString() + ":" + this.credits + " credit hours" );
+    }
+
 }

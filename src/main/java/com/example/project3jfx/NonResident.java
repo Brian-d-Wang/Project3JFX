@@ -44,8 +44,8 @@ public class NonResident extends Student{
      */
     @Override
     public String toString() {
-        return this.getProfile() + ":" + this.getCredits() + " credit hours:tuition due:" +
-                String.format("%.2f",this.getTuition()) + ":total payment:" +
+
+        return super.toString() + ":tuition due:" + String.format("%.2f",this.getTuition()) + ":total payment:" +
                 String.format("%.2f",this.getTotalPayments()) +
                 ":last payment date:" + this.getLastPayment().toString() + ":non-resident";
     }

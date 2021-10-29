@@ -83,17 +83,10 @@ public class International extends NonResident{
      */
     @Override
     public String toString() {
+
         if(this.isStudyAbroad){
-            return this.getProfile() + ":" + this.getCredits() + " credit hours:tuition due:" +
-                    String.format("%.2f",this.getTuition()) + ":total payment:" +
-                    String.format("%.2f",this.getTotalPayments())
-                    + ":last payment date:" + this.getLastPayment().toString()
-                    + ":non-resident:international:study abroad";
+            return super.toString() + ":international:study abroad";
         }
-        return this.getProfile() + ":" + this.getCredits() + " credit hours:tuition due:" +
-                String.format("%.2f",this.getTuition()) + ":total payment:" +
-                String.format("%.2f",this.getTotalPayments()) +
-                ":last payment date:" + this.getLastPayment().toString()
-                + ":non-resident:international";
+        return super.toString() + ":international";
     }
 }

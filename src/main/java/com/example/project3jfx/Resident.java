@@ -73,16 +73,15 @@ public class Resident extends Student{
      */
     @Override
     public String toString() {
+
         if(this.receivedAid)
         {
-            return this.getProfile() + ":" + this.getCredits() + " credit hours:tuition due:" +
-                    String.format("%.2f",this.getTuition()) + ":total payment:" +
+            return super.toString() + ":tuition due:" + String.format("%.2f",this.getTuition()) + ":total payment:" +
                     String.format("%.2f",this.getTotalPayments()) +
                     ":last payment date:" + this.getLastPayment().toString() + ":resident:financial aid " +
                     this.aidReceived;
         }
-        return this.getProfile() + ":" + this.getCredits() + " credit hours:tuition due:" +
-                String.format("%.2f",this.getTuition()) + ":total payment:" +
+        return super.toString() + ":tuition due:" + String.format("%.2f",this.getTuition()) + ":total payment:" +
                 String.format("%.2f",this.getTotalPayments())
                 + ":last payment date:" + this.getLastPayment().toString() + ":resident";
     }
