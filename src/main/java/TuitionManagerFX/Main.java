@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,7 +19,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource( "MainView.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("MainView.fxml"));
             primaryStage.setTitle("Tuition Manager");
             primaryStage.setScene(new Scene(root, 650, 550));
             primaryStage.show();
@@ -32,7 +32,7 @@ public class Main extends Application {
      * Calls launch method for the GUI
      * @param args
      */
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         launch(args);
     }
 }

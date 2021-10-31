@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 /**
  * Roster class that holds all the students and expands, 4 at a time, if needed

@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 /**
  * Major enums that holds the list of majors possible

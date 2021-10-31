@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

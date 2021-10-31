@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 import java.util.Calendar;
 import java.util.StringTokenizer;

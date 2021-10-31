@@ -3,6 +3,6 @@ module com.example.project3jfx {
     requires javafx.fxml;
 
 
-    opens com.example.project3jfx to javafx.fxml;
-    exports com.example.project3jfx;
+    opens TuitionManagerFX to javafx.fxml;
+    exports TuitionManagerFX;
 }

@@ -1,4 +1,4 @@
-package com.example.project3jfx;
+package TuitionManagerFX;
 
 /**
  * Student class that has profile, credits, totalPayment, lastPayment, and tuition variables
